@@ -1,1 +1,200 @@
-First-website-using-HTML-and-CSS
+
+/* heading part start */
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.menu-container{
+    /* width: 100%; */
+    background-color: rgb(32, 32, 32);
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.logo img{
+    height:22px;
+    width:120px;
+    margin: 30px;
+}
+
+
+.menu{
+    color: #fff;
+    display: flex;
+    margin: 20px;
+    font-size: 18px;
+
+}
+
+.menu li{
+    padding-right: 7px;
+    list-style:none;
+    font-size: 18px;
+    margin-right: 10px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+
+li:hover{
+    color: brown;
+
+}
+
+/* heading part Stop */
+
+
+
+/* banner part start */
+
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    color: white;
+    align-items: center;
+    border: 1px solid gray;
+    background-image: url("./images/background.png"),
+    linear-gradient(45deg,rgb(8,8,8), rgb(53,53,53));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.b-image{
+
+  width: 300px;
+}
+
+
+.text{
+    font-size: 55px;
+}
+
+.description{
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.btn{
+ background-color: red;
+ color: white;
+ border: 1px solid transparent;
+ padding: 10px 20px;
+ margin-top: 20px;
+ border-radius: 2px;
+
+
+}
+
+
+/* about part start  */
+
+.about{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+.about-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+    margin: 10px 110px;
+    
+}
+
+.a-image{
+
+    width: 300px;
+    margin-top: 50px;
+  }
+
+  .about-text{
+    text-align: center;
+    padding-bottom: 120px;
+  }
+
+  .a-text{
+    text-align: left;
+  }
+
+  .p-text{
+    margin-top: 10px;
+  }
+
+  .btn2{
+
+    background-color: red;
+    color: white;
+    border: 1px solid transparent;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 2px;
+    margin-right: 195px;
+
+  }
+
+
+/* about part stop  */
+
+
+
+/* Service part start  */
+
+h1{
+    color: #fff;
+     
+}
+
+.service-container{
+
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(8, 0, 15, 0.938);
+    background-image: url("./images/background.png");
+    margin: 10px;
+    padding: 10px;
+}
+
+.service-div{
+    height: 200px;
+    width: 200px;
+    color: #fff;
+    margin: 10px;
+    padding: 20px;
+    background-color: rgb(8,8,8);
+    border-radius: 5px;
+
+
+}
+
+
+.logo{ 
+    display: flex;  
+    justify-content: center; 
+    width: 30px;
+    height: 30px;
+
+}
+
+
+
+/* Service part stop  */
+
+
+
+/* banner part stop */
+
+
+
+
